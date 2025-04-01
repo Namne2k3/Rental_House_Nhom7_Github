@@ -1,0 +1,33 @@
+.related-rental-layout {
+    margin-bottom: 24px;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.related-rental-image-container {}
+
+.related-rental-info-container {
+    padding: 12px;
+}
+
+.related-rental-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+}
+
+.related-rental-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.related-rental-layout {
+    /* ...existing styles... */
+    transition: transform 0.2s ease-in-out;
+}
+
+.related-rental-link:hover .related-rental-layout {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

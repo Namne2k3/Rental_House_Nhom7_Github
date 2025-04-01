@@ -1,0 +1,21 @@
+.area-filter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.area-filter-item {
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.area-filter-item:hover {
+    background-color: #f5f5f5;
+}
+
+.area-filter-item.active {
+    background-color: #e6f4ff;
+    color: #1890ff;
+}

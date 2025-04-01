@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+    .sider_layout {
+        display: none;
+    }
+
+    .slider-section-rental-page {
+        display: none;
+    }
+}
+
+.sider_layout {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
