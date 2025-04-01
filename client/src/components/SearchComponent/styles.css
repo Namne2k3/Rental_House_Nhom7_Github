@@ -1,0 +1,28 @@
+.custom-search-button .ant-input-search-button {
+    background-color: #5d5c61 !important;
+    /* Use your desired color */
+    border-color: #5d5c61 !important;
+}
+
+.custom-search-button .ant-input-search-button:hover {
+    background-color: #557a95 !important;
+    /* Darker shade for hover */
+    border-color: #557a95 !important;
+}
+
+.ant-dropdown-menu {
+    padding: 0 !important;
+}
+
+.ant-radio-wrapper {
+    margin-right: 0 !important;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.filter-button {
+    min-width: 120px;
+}
